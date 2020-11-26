@@ -155,7 +155,7 @@ void setup(){
     String inputMessage2;
     String inputParam2;
     
-  // GET input1 value on <ESP_IP>/update?relay=<inputMessage>
+  // VALOR 1 GET <ESP_IP>/update?relay=<inputMessage>
     if (request->hasParam(PARAM_INPUT_1) & request->hasParam(PARAM_INPUT_2)) {
       inputMessage = request->getParam(PARAM_INPUT_1)->value();
       inputParam = PARAM_INPUT_1;
